@@ -12,10 +12,13 @@
 </head>
 
 <body>
-    <div class="container" style="max-width: 960px;" >
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app" class="container" style="max-width: 960px;" >
         <main>
             <div style="text-align: center !important;" class="py-5">
-                <h2>Inscription pour </h2>
+                <h2>Inscription pour {{title}}</h2>
+                {{title}}
             </div>
 
             <div class="card mb-3">
@@ -144,6 +147,8 @@
             </div>
         </main>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
